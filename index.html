@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>No AI In My Metal 🤘</title>
+    <meta name="description" content="A community-maintained list of artists, festivals, and merchants in the metal scene promoting AI-generated work." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>">
+    <script defer src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>No AI In My Metal 🤘</h1>
+        <nav class="nav">
+          <a href="#why">Why</a>
+          <a href="#artists">Artists</a>
+          <a href="#festivals">Festivals</a>
+          <a href="#merchants">Merchants</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-search">
+        <div class="container">
+          <label for="search" class="visually-hidden">Search</label>
+          <input id="search" type="search" placeholder="Search names, tags, types…" autocomplete="off" />
+          <div class="counts">
+            <span class="badge">Total: <span id="count-total">0</span></span>
+            <span class="badge">Artists: <span id="count-artists">0</span></span>
+            <span class="badge">Festivals: <span id="count-festivals">0</span></span>
+            <span class="badge">Merchants: <span id="count-merchants">0</span></span>
+          </div>
+        </div>
+      </section>
+      <section id="why" class="section section-why">
+        <div class="container">
+          <h2>Why this exists</h2>
+          <div id="why-content" class="prose"></div>
+        </div>
+      </section>
+
+    <section id="artists" class="section">
+        <div class="container">
+      <h2>Artists promoting AI work <span class="count" id="hcount-artists"></span></h2>
+          <div id="artists-grid" class="grid"></div>
+        </div>
+      </section>
+
+      <section id="festivals" class="section">
+        <div class="container">
+          <h2>Festivals promoting AI work <span class="count" id="hcount-festivals"></span></h2>
+          <div id="festivals-grid" class="grid"></div>
+        </div>
+      </section>
+
+      <section id="merchants" class="section">
+        <div class="container">
+          <h2>Merchants promoting AI work <span class="count" id="hcount-merchants"></span></h2>
+          <div id="merchants-grid" class="grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Community-driven list. Submit additions or corrections via pull request.</p>
+      </div>
+    </footer>
+  </body>
+  </html>

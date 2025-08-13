@@ -1,0 +1,46 @@
+# General info and list items for No AI In My Metal
+why: |
+  AI has many uses, but replacing human creativity in the metal scene is not one of them. 
+  This website documents entities that promote or profit from AI-generated artwork, undermining 
+  real artists, designers, photographers, and illustrators who give the scene its soul.
+
+  We encourage fans, bands, organizers, and shops to support human-made art.
+  If you find mistakes or want to add context, submit an issue or pull request on [GitHub](https://github.com/jon4hz/noaiinmymetal.com).
+
+items:
+  # Example entries — replace with real data
+  - id: a1
+    type: artist
+    name: Example Band
+    summary: Used AI artwork for a recent single.
+    thumb: assets/img/placeholder.svg
+    tags: [band, ai-art]
+    links:
+      website: https://example.com
+    description: |
+      In month YEAR, this band promoted a cover using AI-generated artwork on social media and streaming platforms. 
+      The band declined to credit or commission a human artist. Sources: [post](https://example.com).
+
+  - id: f1
+    type: festival
+    name: Example Fest
+    summary: Announced AI-made poster for lineup reveal.
+    thumb: assets/img/placeholder.svg
+    tags: [festival, poster]
+    links:
+      website: https://examplefest.com
+    description: |
+      The festival revealed an AI-made poster, citing "cost savings". After community pushback, they doubled down. 
+      We highlight this to encourage events to hire real designers.
+
+  - id: m1
+    type: merchant
+    name: Example Merch Store
+    summary: Selling AI-generated shirt designs.
+    thumb: assets/img/placeholder.svg
+    tags: [merch, storefront]
+    links:
+      website: https://examplestore.com
+    description: |
+      This store lists multiple designs that are AI-generated, often mimicking known artists' styles without attribution. 
+      Consider supporting stores that employ human artists instead.
