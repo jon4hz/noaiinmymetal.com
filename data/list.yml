@@ -13,15 +13,15 @@ items:
   # Example entries — replace with real data
   - id: a1
     type: artist
-    name: Example Band
-    summary: Used AI artwork for a recent single.
+    name: Dadabots
+    summary: An AI band with the claim "Eliminate humans from music".
     thumb: assets/img/placeholder.svg
-    tags: [band, ai-art]
+    tags: [band, ai-music]
     links:
-      website: https://example.com
+      website: https://dadabots.com/
     description: |
-      In month YEAR, this band promoted a cover using AI-generated artwork on social media and streaming platforms.
-      The band declined to credit or commission a human artist. Sources: [post](https://example.com).
+      Databots seem to be a cross between a band, a hackathon team, and an ephemeral research lab. In their FAQ they are looking
+      forward to being the scapegoat if musicians loose their job.
 
   - id: f1-rockthelakes
     type: festival
