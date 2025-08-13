@@ -2,14 +2,6 @@
 
 A small static website listing artists, festivals, and merchants in the metal scene to publicly shame them because they promote AI work.
 
-## Structure
-- `index.html` — landing page with sections
-- `item.html` — detail page for a selected item
-- `data/list.yml` — content storage (why text + items)
-- `assets/css/styles.css` — black/red theme styles
-- `assets/js/app.js` — loads YAML and renders lists
-- `assets/js/item.js` — loads YAML and renders item details
-
 ## Local preview
 Use any static web server. For example with Python:
 
