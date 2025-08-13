@@ -23,17 +23,21 @@ items:
       In month YEAR, this band promoted a cover using AI-generated artwork on social media and streaming platforms.
       The band declined to credit or commission a human artist. Sources: [post](https://example.com).
 
-  - id: f1
+  - id: f1-rockthelakes
     type: festival
-    name: Example Fest
-    summary: Announced AI-made poster for lineup reveal.
-    thumb: assets/img/placeholder.svg
-    tags: [festival, poster]
+    name: Rock the Lakes
+    summary: Announced an AI band and gave them the stage at 00:05.
+    thumb: assets/img/rockthelakes.webp
+    tags: [festival, band]
     links:
-      website: https://examplefest.com
+      website: https://www.rockthelakes.ch/de/home/
     description: |
-      The festival revealed an AI-made poster, citing "cost savings". After community pushback, they doubled down.
-      We highlight this to encourage events to hire real designers.
+      The festival announced a band called "Absolut Emmental" to play on their main stage at 00:05 (prime time).
+      However, this band seems to be entirely AI-generated, and there is nothing to be found about them online.
+
+      They have no social media presence, no released music, nothing. The only thing Rock the Lakes announced about this band was that their festival boss is the vocalist of this band.
+
+      Several people have pointed that out that this announcement was not okay and demanded a statement from the festival. All they have done was to remove their instagram post and ban people on their social media - that's a statement in itself if you ask me.
 
   - id: m1
     type: merchant
